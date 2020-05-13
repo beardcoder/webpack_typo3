@@ -1,0 +1,14 @@
+{
+    "name": "beardcoder/design",
+    "type": "typo3-cms-extension",
+    "description": "Design extension",
+    "require": {
+        "typo3/cms-core": "*",
+        "typo3/cms-fluid": "*",
+        "typo3/cms-frontend": "*"
+    },
+    "replace": {
+        "design": "self.version",
+        "typo3-ter/design": "self.version"
+    }
+}
